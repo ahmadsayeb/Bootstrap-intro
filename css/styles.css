@@ -47,3 +47,19 @@ body{
 .navbar-dark{
     background-color: #512dab;
 }
+
+.form-body{
+    margin-top: 10px;
+}
+
+.last-content{
+    border-bottom: none;
+}
+
+.row-radio{
+    border: ridge rgb(240, 235, 235);
+}
+
+.scroll{
+    scroll-behavior: smooth;
+}

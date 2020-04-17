@@ -24,10 +24,10 @@
            <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41"></a>
            <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg">Home</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg">About</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-list fa-lg">Menu</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg">Contact</span></a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"> Home</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"> About</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href=""><span class="fa fa-list fa-lg"> Menu</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"> Contact</span></a></li>
                 </ul>           
 
             </div>
@@ -45,7 +45,10 @@
                 <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
-                </div>
+                    <div class="col-12 col-sm align-self-center justify-content-center offset-sm-1">
+                        <a class="col-12 btn btn-warning btn-sm" href="#reserve" role="button"><h4>Reserve Table</h4></a>
+                    </div>
+                
             </div>
         </div>
     </header>
@@ -73,8 +76,13 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div  class = "col-12 col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    <img class="d-felx ml-3 img-thumbnail order-last align-self-center" src="img/buffet.png" alt="Buffet">
+                    <div class="media-body">
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -93,7 +101,65 @@
             </div>
             </div>
         </div>
+        <div class="row row-content justify-content-center last-content" id="reserve">
+            <div class="col-12 col-sm-8 row-radio">
+                <div class="row bg-warning">
+                    <h1 class="co-12 text-light">Reserve Table</h1>
+                </div>
+                    <form action="">
+                        <div class="row form-group">
+                            <label for="guests" class="col-12 col-md-2 col-form-label">Number of Guests</label>
+                            <div class="col-12 col-md-10 form-body">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">1</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">2</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                    <label class="form-check-label" for="inlineRadio3">3</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                                    <label class="form-check-label" for="inlineRadio4">4</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                                    <label class="form-check-label" for="inlineRadio4">5</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                                    <label class="form-check-label" for="inlineRadio4">6</label>
+                                </div>
+                                
+                            </div>
+                                
+                            
+                        </div>
+                        <div class="row form-group">
+                            <label for="dateandtime" class="col-12 col-md-2 col-form-labe">Date and Time</label>
+                            <div class="col-12 col-md-3">
+                                <input type="text" class="form-control" id="date" name="date" placeholder="Date">
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <input type="text" class="form-control" id="time" name="time" placeholder="Time">
+                            </div>
+                            
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-10 offset-md-2">
+                                <button type="submit" class="btn btn-primary">Reserve</button>
+                            </div>
+                        </div>
+                    </form>
+                    
+                
+        </div>
     </div>
+    
 
     <footer>
         <div class = "container">
